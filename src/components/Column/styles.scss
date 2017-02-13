@@ -1,0 +1,8 @@
+@import '../../styles/includes';
+
+.Column {
+  @include rem(padding, 10px);
+  &:first-of-type {
+    font-weight: bold;
+  }
+}

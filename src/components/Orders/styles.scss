@@ -1,0 +1,15 @@
+@import '../../styles/includes';
+
+.Orders {
+  width: 100%;
+  thead {
+    border-bottom: 1px solid $light-grey;
+    background: $light-grey;
+    font-weight: bold;
+  }
+  th {
+    color: $blue;
+    text-align: left;
+    @include rem(padding, 10px);
+  }
+}

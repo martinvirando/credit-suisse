@@ -1,0 +1,11 @@
+@import '../../styles/includes';
+
+.Sidebar {
+  width: 25%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  @include rem(padding, 15px);
+  background: $blue;
+}
